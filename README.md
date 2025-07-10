@@ -5,7 +5,7 @@ A simple Go package that provides arithmetic operations.
 ## Installation
 
 ```bash
-go get github.com/sumitthorat/math
+go get github.com/sumitthorat/go-math
 ```
 
 ## Usage
@@ -15,7 +15,7 @@ package main
 
 import (
     "fmt"
-    "github.com/sumitthorat/math/pkg/arithmetic"
+    "github.com/sumitthorat/go-math/pkg/arithmetic"
 )
 
 func main() {
