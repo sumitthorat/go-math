@@ -1,4 +1,4 @@
-# Math Package
+# Go-Math Package
 
 A simple Go package that provides arithmetic operations.
 
@@ -9,6 +9,34 @@ go get github.com/sumitthorat/go-math
 ```
 
 ## Usage
+
+You can use the package in two ways:
+
+### Option 1: Using the root package (Recommended)
+
+```go
+package main
+
+import (
+    "fmt"
+    "github.com/sumitthorat/go-math"
+)
+
+func main() {
+    // Create a new Arithmetic instance
+    a := math.New()
+    
+    // Use the Add method
+    sum := a.Add([]int{1, 2, 3, 4, 5})
+    fmt.Println("Sum:", sum)
+    
+    // Use the Multiply method
+    product := a.Multiply([]int{1, 2, 3, 4, 5})
+    fmt.Println("Product:", product)
+}
+```
+
+### Option 2: Using the arithmetic package directly
 
 ```go
 package main
